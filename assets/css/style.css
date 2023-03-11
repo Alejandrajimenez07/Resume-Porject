@@ -71,7 +71,11 @@ header {
     font-size: 0;
 }
 
-/*---------The #nav style will fix and display the font------*/
+#nav {
+    margin: 0;
+}
+
+/*---------The #nav li style will fix and display the font------*/
 
 #nav li {
     font-size: 14px;
@@ -110,5 +114,12 @@ header {
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+}
+
+/*----------------------------Hover.css */
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
 
