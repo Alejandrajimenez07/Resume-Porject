@@ -1,11 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
+/*----------------------------Colours */
+
 .bg-color-name-tittle {
     background-color: #676767;
 
-
 }
-/*----------------------------Colours */
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+
 header {
     margin: 0;
 
@@ -34,7 +52,7 @@ header {
     color: #fff;
 }
 
-.tittle {
+.title {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 28px;
@@ -42,3 +60,21 @@ header {
     margin-bottom: 90px;
     color: #fff;
 }
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+/*-----The class below helps to close the gaps between nav elements (font will not be visible)-------*/
+
+.menucontainer {
+    font-size: 0;
+}
+
+/*---------The #nav style will fix and display the font------*/
+
+#nav li {
+    font-size: 14px;
+}
+
+
